@@ -77,7 +77,7 @@ function App() {
             <Route exact path="/create">
               <Create email={email} password={password} setemail={setemail} setpassword={setpassword} name={name} number={number} setname={setname} setnumber={setnumber} createaccount={createaccount}  />
             </Route>
-            <Route exact path="/login">
+            <Route  path="/login">
               <Login email={email} password={password} setemail={setemail} setpassword={setpassword} />
             </Route>
             <Route exact path="/user">
